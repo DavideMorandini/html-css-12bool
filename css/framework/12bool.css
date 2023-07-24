@@ -5,30 +5,36 @@
 }
 
 div.container_top {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 1176px;
-    height: 900px; /* auto */
+    height: auto; 
+}
+
+div.container_bottom {
+    /* border: 1px solid black; */
+    max-width: 1176px;
+    height: auto; 
 }
 
 div.row {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
-    height: auto; /* auto */
+    height: auto; 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 div.col {
-    border: 1px solid blue;
-    height: auto;
-    padding: 0.625rem;
+    border: 1px solid white;
+    height: 2.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+/* Da col-1 a col-12 */
 div.col-1 {
     width: calc(100% / 12 * 1);
 }
@@ -76,6 +82,63 @@ div.col-11 {
 div.col-12 {
     width: calc(100% / 12 * 12);
 }
+
+/* Da offset-col 1 a offset-col-12 */
+div.col-offset-1 {
+    margin-left: calc(100% / 12 * 1);
+}
+
+div.col-offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+
+div.col-offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+
+div.col-offset-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+
+div.col-offset-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+
+div.col-offset-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+
+div.col-offset-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+
+div.col-offset-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+
+div.col-offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+
+div.col-offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+
+div.col-offset-11 {
+    margin-left: calc(100% / 12 * 11);
+}
+
+div.col-offset-12 {
+    margin-left: calc(100% / 12 * 12);
+}
+
+
+
+
+
+
+
+
 
 
 
